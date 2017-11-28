@@ -17,6 +17,7 @@ import com.facebook.react.uimanager.ViewManager;
 
 /**
  * Created by lovebing on 4/17/16.
+ * Change by fomen
  */
 public class BaiduMapPackage implements ReactPackage {
 
@@ -46,7 +47,6 @@ public class BaiduMapPackage implements ReactPackage {
         );
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
