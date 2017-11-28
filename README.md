@@ -16,7 +16,7 @@ native 0.47+
 
 ### Install 安装
 
-    npm install react-native-BaiduMap --save
+    npm install react-native-baidumap --save
 
 ### Import 导入
 
@@ -26,7 +26,7 @@ native 0.47+
   project(':react-native-BaiduMap').projectDir = new File(settingsDir,
   '../node_modules/react-native-BaiduMap/android')`
 
-* build.gradle `compile project(':react-native-BaiduMap')`
+* build.gradle `compile project(':react-native-baidumap')`
 
 * MainApplication`new BaiduMapPackage(getApplicationContext())`
 * AndroidMainifest.xml `<meta-data android:name="com.baidu.lbsapi.API_KEY"
@@ -63,7 +63,7 @@ native 0.47+
 
 ### Usage 使用方法
 
-    import { MapView, MapTypes, MapModule, Geolocation } from 'react-native-BaiduMap
+    import { MapView, MapTypes, MapModule, Geolocation } from 'react-native-baidumap'
 
 #### MapView Props 属性
 
