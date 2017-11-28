@@ -1,3 +1,6 @@
+# react-native-baidu-map
+从原作者fork下来，原项目很久没维护了，故新开一个模块用于维护百度地图上的RN使用
+目前在android端进行了测试升级，ios待跟进
 # react-native-baidu-map [![npm version](https://img.shields.io/npm/v/react-native-baidu-map.svg?style=flat)](https://www.npmjs.com/package/react-native-baidu-map)
 
 Baidu Map SDK modules and view for React Native(Android & IOS), support react native 0.40+
