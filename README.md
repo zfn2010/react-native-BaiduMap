@@ -1,8 +1,8 @@
 # react-native-BaiduMap
 
 从原作者 fork 下来，原项目很久没维护了，故新开一个模块用于维护百度地图上的 RN 使
-用，原项目https://github.com/lovebing/react-native-BaiduMap，目前在 android 端进
-行了测试升级，ios 待跟进
+用。</br>原项目 https://github.com/lovebing/react-native-baidu-map </br>目前在
+android 端进行了测试升级，ios 待跟进
 
 # react-native-BaiduMap [![npm version](https://img.shields.io/npm/v/react-native-BaiduMap.svg?style=flat)](https://www.npmjs.com/package/react-native-BaiduMap)
 
@@ -11,8 +11,8 @@ native 0.47+
 
 百度地图 React Native 模块，支持 react native 0.47+
 
-![Android](https://raw.githubusercontent.com/lovebing/react-native-BaiduMap/master/images/android.jpg)
-![IOS](https://raw.githubusercontent.com/lovebing/react-native-BaiduMap/master/images/ios.jpg)
+![Android](https://raw.githubusercontent.com/zfn2010/react-native-BaiduMap/master/images/android.jpg)
+![IOS](https://raw.githubusercontent.com/zfn2010/react-native-BaiduMap/master/images/ios.jpg)
 
 ### Install 安装
 
