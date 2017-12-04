@@ -43,7 +43,6 @@ public class GeolocationModule extends BaseModule
         LocationClientOption option = new LocationClientOption();
         option.setCoorType("bd09ll");
         option.setIsNeedAddress(true);
-        option.setIsNeedAltitude(true);
         option.setIsNeedLocationDescribe(true);
         option.setOpenGps(true);
         locationClient = new LocationClient(context.getApplicationContext());

@@ -32,5 +32,5 @@ android {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    compile files('libs/BaiduLBS_Android.jar')
+    provided fileTree(include: '*.jar', dir: 'libs')
 }

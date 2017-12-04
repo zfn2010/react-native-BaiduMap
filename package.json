@@ -1,11 +1,12 @@
 {
   "name": "react_native_baidumap",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description":
     "Baidu Map SDK modules and view for React Native(Android & IOS), support react native 0.47+.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --registry http://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
