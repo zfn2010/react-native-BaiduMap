@@ -69,19 +69,19 @@ native 0.47+
 
 #### MapView Props 属性
 
-| Name                    |  Type  |  Default  | Extra                                  |
-| ----------------------- | :----: | :-------: | -------------------------------------- |
-| zoomControlsVisible     |  bool  |   true    | Android only                           |
+| Name                    |  Type  |  Default  | Extra                                          |
+| ----------------------- | :----: | :-------: | ---------------------------------------------- |
+| zoomControlsVisible     |  bool  |   true    | Android only                                   |
 | trafficEnabled          |  bool  |   false   |
 | baiduHeatMapEnabled     |  bool  |   false   |
 | mapType                 | number |     1     |
 | zoom                    | number |    10     |
-| center                  | object |   null    | {latitude: 0, longitude: 0}            |
-| marker                  | object |   null    | {latitude: 0, longitude: 0, title: ''} |
-| markers                 | array  |    []     | [marker, maker]                        |
-| onMapStatusChangeStart  |  func  | undefined | Android only                           |
+| center                  | object |   null    | {latitude: 0, longitude: 0}                    |
+| marker                  | object |   null    | {latitude: 0, longitude: 0, title: '',icon:''} |
+| markers                 | array  |    []     | [marker, maker]                                |
+| onMapStatusChangeStart  |  func  | undefined | Android only                                   |
 | onMapStatusChange       |  func  | undefined |
-| onMapStatusChangeFinish |  func  | undefined | Android only                           |
+| onMapStatusChangeFinish |  func  | undefined | Android only                                   |
 | onMapLoaded             |  func  | undefined |
 | onMapClick              |  func  | undefined |
 | onMapDoubleClick        |  func  | undefined |
