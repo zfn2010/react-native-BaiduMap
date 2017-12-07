@@ -17,3 +17,4 @@ build/
 local.properties
 *.iml
 .externalNativeBuild
+demo/android/app/app.iml

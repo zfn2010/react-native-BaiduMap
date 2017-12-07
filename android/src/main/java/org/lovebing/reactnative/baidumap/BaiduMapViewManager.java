@@ -44,6 +44,7 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
     private HashMap<String, Marker> mMarkerMap = new HashMap<>();
     private HashMap<String, List<Marker>> mMarkersMap = new HashMap<>();
     private TextView mMarkerText;
+    private Context context;
 
     public String getName() {
         return REACT_CLASS;
@@ -52,6 +53,7 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
 
     public void initSDK(Context context) {
         SDKInitializer.initialize(context);
+        this.context = context;
     }
 
     public MapView createViewInstance(ThemedReactContext context) {
@@ -125,10 +127,10 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
             String key = "marker_" + mapView.getId();
             Marker marker = mMarkerMap.get(key);
             if(marker != null) {
-                MarkerUtil.updateMaker(marker, option);
+                MarkerUtil.updateMaker(marker, option, context);
             }
             else {
-                marker = MarkerUtil.addMarker(mapView, option);
+                marker = MarkerUtil.addMarker(mapView, option, context);
                 mMarkerMap.put(key, marker);
             }
         }
@@ -144,10 +146,10 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
         for (int i = 0; i < options.size(); i++) {
             ReadableMap option = options.getMap(i);
             if(markers.size() > i + 1 && markers.get(i) != null) {
-                MarkerUtil.updateMaker(markers.get(i), option);
+                MarkerUtil.updateMaker(markers.get(i), option, context);
             }
             else {
-                markers.add(i, MarkerUtil.addMarker(mapView, option));
+                markers.add(i, MarkerUtil.addMarker(mapView, option, context));
             }
         }
         if(options.size() < markers.size()) {
