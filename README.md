@@ -4,7 +4,9 @@
 用。</br>原项目 https://github.com/lovebing/react-native-baidu-map </br>目前在
 android 端进行了测试升级，ios 待跟进
 
-# react-native-BaiduMap [![npm version](https://img.shields.io/npm/v/react-native-BaiduMap.svg?style=flat)](https://www.npmjs.com/package/react-native-BaiduMap)
+<font color=red>注 :</font>本模块不打包百度地图依赖 需要在主模块导入百度地图依赖
+
+# react-native-BaiduMap [![npm version](https://img.shields.io/npm/v/react_native_baidumap.svg?style=flat)](https://www.npmjs.com/package/react_native_baidumap)
 
 Baidu Map SDK modules and view for React Native(Android & IOS), support react
 native 0.47+
@@ -16,7 +18,7 @@ native 0.47+
 
 ### Install 安装
 
-    npm install react-native-baidumap --save
+    npm install react_native_baidumap --save
 
 ### Import 导入
 
@@ -63,7 +65,7 @@ native 0.47+
 
 ### Usage 使用方法
 
-    import { MapView, MapTypes, MapModule, Geolocation } from 'react-native-baidumap'
+    import { MapView, MapTypes, MapModule, Geolocation } from 'react_native_baidumap'
 
 #### MapView Props 属性
 
@@ -108,4 +110,4 @@ native 0.47+
 ### TODOList
 
 * [x] 实现 android 端地图标记图片自定义（注：需要在 drawble 下放对于图片资源）
-* [] ios 端地图标记图片自定义
+* [ ] ios 端地图标记图片自定义
