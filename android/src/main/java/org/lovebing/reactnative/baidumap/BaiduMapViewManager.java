@@ -19,6 +19,7 @@ import com.baidu.mapapi.map.MapViewLayoutParams;
 import com.baidu.mapapi.map.Marker;
 import com.baidu.mapapi.model.LatLng;
 import com.facebook.react.bridge.Arguments;
+import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableArray;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
@@ -208,6 +209,7 @@ public class BaiduMapViewManager extends ViewGroupManager<MapView> {
                 if(mMarkerText.getVisibility() != View.GONE) {
                     mMarkerText.setVisibility(View.GONE);
                 }
+                mapView.getMap().hideInfoWindow();
                 sendEvent(mapView, "onMapStatusChangeFinish", getEventParams(mapStatus));
             }
         });
