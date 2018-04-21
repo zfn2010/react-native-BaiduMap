@@ -121,7 +121,8 @@ public class GeolocationModule extends BaseModule
         params.putString("street", bdLocation.getStreet());
         params.putString("streetNumber", bdLocation.getStreetNumber());
         params.putString("buildingId", bdLocation.getBuildingID());
-        params.putString("buildingName", bdLocation.getBuildingName());
+		//Baidu sdk4.4.1以上此api弃用
+        //params.putString("buildingName", bdLocation.getBuildingName());
         Log.i("onReceiveLocation", "onGetCurrentLocationPosition");
         sendEvent("onGetCurrentLocationPosition", params);
         locationClient.stop();

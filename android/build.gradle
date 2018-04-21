@@ -32,5 +32,7 @@ android {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
-    provided fileTree(include: '*.jar', dir: 'libs')
+    //provided fileTree(include: '*.jar', dir: 'libs')
+    provided 'cn.com.egova.mobile.3rd:BaiduLBS_Android:1.0.0'
+    provided "cn.com.egova.mobile:locSDK:1.0.0"
 }

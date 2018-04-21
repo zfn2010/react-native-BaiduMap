@@ -1,6 +1,6 @@
 {
   "name": "react_native_baidumap",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description":
     "Baidu Map SDK modules and view for React Native(Android & IOS), support react native 0.47+.",
   "main": "index.js",
